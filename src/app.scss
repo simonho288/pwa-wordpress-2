@@ -1,0 +1,50 @@
+$brand-primary: purple;
+
+@import '../node_modules/tether/dist/css/tether.css';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: #eee;
+}
+
+.page-home {
+  margin-top: 20px;
+}
+
+.page-blogs {
+  margin-top: 20px;
+}
+
+.postslist-post {
+  margin-top: 20px;
+  border-top: #ccc solid 1px;
+  padding-top: 10px;
+}
+
+.page-postview {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  img {
+    width: 90%;
+  }
+  .back-btn {
+    margin-top: 10px;
+  }
+}
+
+.pageslist-page {
+  margin-top: 20px;
+  border-top: #ccc solid 1px;
+  padding-top: 10px;
+}
+
+.page-pageview {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  img {
+    width: 90%;
+  }
+  .back-btn {
+    margin-top: 10px;
+  }
+}

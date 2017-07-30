@@ -1,0 +1,15 @@
+{
+  "short_name": "Wordpress PWA",
+  "name": "Wordpress Progressive Web App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/wp-content/themes/pwawptheme/home.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

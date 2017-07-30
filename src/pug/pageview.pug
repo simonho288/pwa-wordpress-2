@@ -1,0 +1,21 @@
+extends inc/layout.pug
+
+block content
+  -var current_active="pages" // navigator needs this var
+  include inc/navigator.pug
+  div.container.page-pageview
+    nav.breadcrumb
+      a.breadcrumb-item(href="/page-pages") Home
+      span.breadcrumb-item.active Page
+    div.row
+      div.col
+        h2.page-title
+        p
+          small.date
+        p.page-content
+        button(class="btn btn-default back-btn") Back
+  script(type="text/javascript").
+    $(document).ready(function() {
+      var obj = new PageViewObj();
+      obj.execute();
+    });

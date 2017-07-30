@@ -1,0 +1,21 @@
+extends inc/layout.pug
+
+block content
+  -var current_active="blogs" // navigator needs this var
+  include inc/navigator.pug
+  div.container.page-postview
+    nav.breadcrumb
+      a.breadcrumb-item(href="/page-blogs") Home
+      span.breadcrumb-item.active Post
+    div.row
+      div.col
+        h2.post-title
+        p
+          small.date
+        p.post-content
+        button(class="btn btn-default back-btn") Back
+  script(type="text/javascript").
+    $(document).ready(function() {
+      var obj = new PostViewObj();
+      obj.execute();
+    });

@@ -1,0 +1,16 @@
+ul(class="nav nav-pills nav-fill")
+  li.nav-item
+    -if (current_active == 'home')
+      a(class="nav-link active" href="/wp-content/themes/pwawptheme/home.html") Home
+    -else
+      a(class="nav-link" href="/wp-content/themes/pwawptheme/home.html") Home
+  li.nav-item
+    -if (current_active == 'blogs')
+      a(class="nav-link active" href="/wp-content/themes/pwawptheme/blogs.html") Blogs
+    -else
+      a(class="nav-link" href="/wp-content/themes/pwawptheme/blogs.html") Blogs
+  li.nav-item
+    -if (current_active == 'pages')
+      a(class="nav-link active" href="/wp-content/themes/pwawptheme/pages.html") Pages
+    -else
+      a(class="nav-link" href="/wp-content/themes/pwawptheme/pages.html") Pages

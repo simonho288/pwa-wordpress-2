@@ -1,0 +1,15 @@
+extends inc/layout.pug
+
+block content
+  -var current_active="pages" // navigator needs this var
+  include inc/navigator.pug
+  div(class="container page-blogs")
+    div.row
+      div.col
+        h3 Pages Page
+    div#pages
+  script(type="text/javascript").
+    $(document).ready(function() {
+      var obj = new PagesListObj();
+      obj.execute();
+    });

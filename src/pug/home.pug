@@ -1,0 +1,9 @@
+extends inc/layout.pug
+
+block content
+  -var current_active="home" // navigator needs this var
+  include inc/navigator.pug
+  div(class="container page-home")
+    div.row
+      div.col
+        h2 Progressive Web App Wordpress Theme #{title}
