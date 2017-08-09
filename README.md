@@ -11,4 +11,4 @@ npm i
 npm run prod
 ```
 
-Upload the pwawptheme.zip to Wordpress server via WordPress Admin->Themes->Upload.
+Then upload the pwawptheme.zip to Wordpress server via WordPress Admin Panel->Themes->Upload.
