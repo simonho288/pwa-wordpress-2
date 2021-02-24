@@ -34,7 +34,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "html-loader": "^0.5.0",
     "locate-path": "^2.0.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^2.0.6",
     "pug": "^2.0.0-rc.2",
     "pug-html-loader": "^1.1.5",
