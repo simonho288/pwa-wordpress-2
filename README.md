@@ -1,6 +1,6 @@
 # Source codes for the Blog: Progressive Web App Wordpress - Part 2
 
-Read the story at: https://blog.simonho.net/progressive-web-app-wordpress-theme-2
+Read the story at: https://blog.simonho.net/2017/07/progressive-web-app-wordpress-theme.html
 
 # Installation
 
